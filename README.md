@@ -1,5 +1,7 @@
 # Opposed Gradient Projection for Fine-Tuning LLMs
 
+https://colab.research.google.com/drive/1bA9n3615__9mUN7YIeIo-lWG-8HIW9d6?usp=sharing
+
 This repository contains a standalone Python script for fine-tuning Large Language Models (LLMs) like Google's Gemma using a novel technique called **Opposed Gradient Projection**. This method is designed to "unlearn" or suppress undesirable behaviors—such as refusing to answer sensitive questions—without catastrophically forgetting the model's original capabilities.
 
 The entire implementation is contained within a single script, designed for easy execution in environments like Google Colab with GPU access (e.g., A100).
